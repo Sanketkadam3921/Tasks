@@ -1,0 +1,42 @@
+Name: Sanket Kadam
+Phone: 8432338668
+Email: sanketkadam9614@gmail.com
+
+Java Development Setup Guide ZorinOS
+
+step-by-step instructions to:
+-Install Java JDK and IntelliJ IDEA
+- Compile and run a Java program via both IDE and command line
+
+Install Java JDK
+sudo apt update
+sudo apt install openjdk-version-jdk
+Check if Java installed:
+java -version
+
+Install IntelliJ IDEA
+sudo snap install intellij-idea-community --classic
+
+Hello World in Java
+mkdir -p ~/Desktop/JavaSetup
+cd ~/Desktop/JavaSetup
+nano HelloWorld.java
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+Compile and run
+
+javac HelloWorld.java
+java HelloWorld
+
+Compile and Run via IntelliJ IDEA
+Open IntelliJ IDEA
+
+Create New Project
+Right-click src - New - Java Class - Name it HelloWorld
+Paste the same code
+Right-click inside the editor → Run
+Output will appear in the bottom terminal.
