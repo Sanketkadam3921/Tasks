@@ -18,8 +18,8 @@ Install IntelliJ IDEA
 sudo snap install intellij-idea-community --classic
 
 Hello World in Java
-mkdir -p ~/Desktop/JavaSetup
-cd ~/Desktop/JavaSetup
+mkdir - create the folder 
+cd  go to the directory 
 nano HelloWorld.java
 
 public class HelloWorld {
